@@ -1,0 +1,25 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "ruleta_db",
+        "port": 3306
+    },
+    "capture": {
+        "monitor": 1,
+        "fps": 10,
+        "max_capture_width": 1200,
+        "region": [0, 0, 1366, 768]
+    },
+    "prediction": {
+        "confidence_threshold": 0.6,
+        "min_training_spins": 50,
+        "max_prediction_history": 1000
+    },
+    "interface": {
+        "port": 5001,
+        "debug_mode": true,
+        "show_preview": true
+    }
+}

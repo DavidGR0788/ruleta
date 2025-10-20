@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mss
+mysql-connector-python
+pandas
+scipy
+Pillow
+pyautogui
